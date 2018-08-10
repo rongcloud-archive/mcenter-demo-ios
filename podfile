@@ -1,0 +1,4 @@
+target 'RCMCenterDemo' do
+   pod 'RongCloudIM/IMLib', '~> 2.9.2'
+   pod 'RongCloudIM/IMKit', '~> 2.9.2'  
+end

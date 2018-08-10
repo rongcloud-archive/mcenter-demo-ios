@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B949A4D53399D911EA25864 /* libPods-RCMCenterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE48281E20A17887448B4C73 /* libPods-RCMCenterDemo.a */; };
+		980D8D9620C662260060BEA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D8D9520C662260060BEA1 /* AppDelegate.m */; };
+		980D8D9920C662260060BEA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D8D9820C662260060BEA1 /* ViewController.m */; };
+		980D8D9C20C662260060BEA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980D8D9A20C662260060BEA1 /* Main.storyboard */; };
+		980D8D9E20C662260060BEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980D8D9D20C662260060BEA1 /* Assets.xcassets */; };
+		980D8DA120C662260060BEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980D8D9F20C662260060BEA1 /* LaunchScreen.storyboard */; };
+		980D8DA420C662260060BEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D8DA320C662260060BEA1 /* main.m */; };
+		980D8DAE20C662260060BEA1 /* RCMCenterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D8DAD20C662260060BEA1 /* RCMCenterDemoUITests.m */; };
+		980D8DCD20C667550060BEA1 /* RCMCDMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D8DCC20C667550060BEA1 /* RCMCDMainTabBarViewController.m */; };
+		980D8DD420C674FF0060BEA1 /* RCMCenterDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 980D8DD320C674FF0060BEA1 /* RCMCenterDemo.bundle */; };
+		980D8DE220C694E00060BEA1 /* RCMCDMeDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D8DE120C694E00060BEA1 /* RCMCDMeDetailsCell.m */; };
+		980D8DE520C6967E0060BEA1 /* RCMCDMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D8DE420C6967E0060BEA1 /* RCMCDMeCell.m */; };
+		983AB258211BD32900413A56 /* RCML.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983AB250211BD32800413A56 /* RCML.strings */; };
+		983AB259211BD32900413A56 /* default_image_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 983AB252211BD32800413A56 /* default_image_square.png */; };
+		983AB25A211BD32900413A56 /* RCML.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983AB254211BD32900413A56 /* RCML.strings */; };
+		983AB25B211BD32900413A56 /* default_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 983AB256211BD32900413A56 /* default_image.png */; };
+		983AB25C211BD32900413A56 /* default_image_rectangular.png in Resources */ = {isa = PBXBuildFile; fileRef = 983AB257211BD32900413A56 /* default_image_rectangular.png */; };
+		983AC430211C423900413A56 /* RongMCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983AC42F211C423800413A56 /* RongMCenter.framework */; };
+		986A62BA20DB91E60022AB48 /* RCMCDMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 986A62B920DB91E60022AB48 /* RCMCDMessageManager.m */; };
+		987B0549211AF217003C4A25 /* users_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 987B0548211AF217003C4A25 /* users_config.json */; };
+		9891CE882114001300400F2C /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9891CE872114001300400F2C /* LaunchImage.png */; };
+		989A878520F88DFD00264B9B /* RCMCDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A878420F88DFD00264B9B /* RCMCDemoViewController.m */; };
+		98AB651420DA2A0D0025D807 /* RCMCDMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AB651320DA2A0D0025D807 /* RCMCDMainPageViewController.m */; };
+		98AB651720DA33A80025D807 /* RCMCDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AB651620DA33A80025D807 /* RCMCDMeViewController.m */; };
+		98EB69B420C825CF00EF6EF9 /* RCMCDChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EB69B320C825CF00EF6EF9 /* RCMCDChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		980D8DAA20C662260060BEA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D8D8920C662260060BEA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980D8D9020C662260060BEA1;
+			remoteInfo = RCMCenterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AA80C82CDE3B717BF2F2C15 /* Pods-RCMCenterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCMCenterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCMCenterDemo/Pods-RCMCenterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		980D8D9420C662260060BEA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		980D8D9520C662260060BEA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		980D8D9720C662260060BEA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		980D8D9820C662260060BEA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		980D8D9B20C662260060BEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		980D8D9D20C662260060BEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		980D8DA020C662260060BEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		980D8DA220C662260060BEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980D8DA320C662260060BEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		980D8DAD20C662260060BEA1 /* RCMCenterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCenterDemoUITests.m; sourceTree = "<group>"; };
+		980D8DAF20C662260060BEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980D8DCB20C667550060BEA1 /* RCMCDMainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMCDMainTabBarViewController.h; sourceTree = "<group>"; };
+		980D8DCC20C667550060BEA1 /* RCMCDMainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCDMainTabBarViewController.m; sourceTree = "<group>"; };
+		980D8DD320C674FF0060BEA1 /* RCMCenterDemo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RCMCenterDemo.bundle; sourceTree = "<group>"; };
+		980D8DE020C694E00060BEA1 /* RCMCDMeDetailsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMCDMeDetailsCell.h; sourceTree = "<group>"; };
+		980D8DE120C694E00060BEA1 /* RCMCDMeDetailsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCDMeDetailsCell.m; sourceTree = "<group>"; };
+		980D8DE320C6967E0060BEA1 /* RCMCDMeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMCDMeCell.h; sourceTree = "<group>"; };
+		980D8DE420C6967E0060BEA1 /* RCMCDMeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCDMeCell.m; sourceTree = "<group>"; };
+		982BB97220E0C9EE0088B9FB /* RCMCenterDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RCMCenterDemo.entitlements; sourceTree = "<group>"; };
+		983AB251211BD32800413A56 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = RCML.strings; sourceTree = "<group>"; };
+		983AB252211BD32800413A56 /* default_image_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_image_square.png; path = RCMCenterDemo/RCMCenter/default_image_square.png; sourceTree = "<group>"; };
+		983AB255211BD32900413A56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = RCML.strings; sourceTree = "<group>"; };
+		983AB256211BD32900413A56 /* default_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_image.png; path = RCMCenterDemo/RCMCenter/default_image.png; sourceTree = "<group>"; };
+		983AB257211BD32900413A56 /* default_image_rectangular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_image_rectangular.png; path = RCMCenterDemo/RCMCenter/default_image_rectangular.png; sourceTree = "<group>"; };
+		983AC429211C3EA400413A56 /* RCMCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCMCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983AC42A211C3EA400413A56 /* RCMCenterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCMCenterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983AC42F211C423800413A56 /* RongMCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongMCenter.framework; path = RCMCenterDemo/RCMCenter/RongMCenter.framework; sourceTree = "<group>"; };
+		986A62B820DB91E60022AB48 /* RCMCDMessageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMCDMessageManager.h; sourceTree = "<group>"; };
+		986A62B920DB91E60022AB48 /* RCMCDMessageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCDMessageManager.m; sourceTree = "<group>"; };
+		987B0548211AF217003C4A25 /* users_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users_config.json; sourceTree = "<group>"; };
+		9891CE872114001300400F2C /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		989A878320F88DFD00264B9B /* RCMCDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMCDemoViewController.h; sourceTree = "<group>"; };
+		989A878420F88DFD00264B9B /* RCMCDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCDemoViewController.m; sourceTree = "<group>"; };
+		98AB651220DA2A0D0025D807 /* RCMCDMainPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMCDMainPageViewController.h; sourceTree = "<group>"; };
+		98AB651320DA2A0D0025D807 /* RCMCDMainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCDMainPageViewController.m; sourceTree = "<group>"; };
+		98AB651520DA33A80025D807 /* RCMCDMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMCDMeViewController.h; sourceTree = "<group>"; };
+		98AB651620DA33A80025D807 /* RCMCDMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCDMeViewController.m; sourceTree = "<group>"; };
+		98EB69B220C825CF00EF6EF9 /* RCMCDChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMCDChatViewController.h; sourceTree = "<group>"; };
+		98EB69B320C825CF00EF6EF9 /* RCMCDChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMCDChatViewController.m; sourceTree = "<group>"; };
+		AE48281E20A17887448B4C73 /* libPods-RCMCenterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCMCenterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F026A67E1A7755C8D56A2116 /* Pods-RCMCenterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCMCenterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCMCenterDemo/Pods-RCMCenterDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		980D8D8E20C662260060BEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983AC430211C423900413A56 /* RongMCenter.framework in Frameworks */,
+				7B949A4D53399D911EA25864 /* libPods-RCMCenterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980D8DA620C662260060BEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8C9F5BDFF16BD2DD37AACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AA80C82CDE3B717BF2F2C15 /* Pods-RCMCenterDemo.debug.xcconfig */,
+				F026A67E1A7755C8D56A2116 /* Pods-RCMCenterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		980D8D8820C662260060BEA1 = {
+			isa = PBXGroup;
+			children = (
+				980D8D9320C662260060BEA1 /* RCMCenterDemo */,
+				980D8DAC20C662260060BEA1 /* RCMCenterDemoUITests */,
+				1B8C9F5BDFF16BD2DD37AACF /* Pods */,
+				FEF5048F11AEA22D11D214DC /* Frameworks */,
+				983AC429211C3EA400413A56 /* RCMCenterDemo.app */,
+				983AC42A211C3EA400413A56 /* RCMCenterDemoUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		980D8D9320C662260060BEA1 /* RCMCenterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				982BB97220E0C9EE0088B9FB /* RCMCenterDemo.entitlements */,
+				986A62B720DB91B30022AB48 /* MessageManager */,
+				980D8DD220C674C50060BEA1 /* Resource */,
+				980D8DC820C665F90060BEA1 /* ViewControllers */,
+				980D8D9420C662260060BEA1 /* AppDelegate.h */,
+				980D8D9520C662260060BEA1 /* AppDelegate.m */,
+				980D8D9720C662260060BEA1 /* ViewController.h */,
+				980D8D9820C662260060BEA1 /* ViewController.m */,
+				980D8D9A20C662260060BEA1 /* Main.storyboard */,
+				980D8D9D20C662260060BEA1 /* Assets.xcassets */,
+				980D8D9F20C662260060BEA1 /* LaunchScreen.storyboard */,
+				980D8DA220C662260060BEA1 /* Info.plist */,
+				980D8DA320C662260060BEA1 /* main.m */,
+				987B0548211AF217003C4A25 /* users_config.json */,
+			);
+			path = RCMCenterDemo;
+			sourceTree = "<group>";
+		};
+		980D8DAC20C662260060BEA1 /* RCMCenterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				980D8DAD20C662260060BEA1 /* RCMCenterDemoUITests.m */,
+				980D8DAF20C662260060BEA1 /* Info.plist */,
+			);
+			path = RCMCenterDemoUITests;
+			sourceTree = "<group>";
+		};
+		980D8DC820C665F90060BEA1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				981FFD9920C6D11200E17AE3 /* MCenter */,
+				980D8DCE20C66BC30060BEA1 /* Me */,
+				980D8DC920C6661B0060BEA1 /* MainPage */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		980D8DC920C6661B0060BEA1 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				980D8DCB20C667550060BEA1 /* RCMCDMainTabBarViewController.h */,
+				980D8DCC20C667550060BEA1 /* RCMCDMainTabBarViewController.m */,
+				98AB651220DA2A0D0025D807 /* RCMCDMainPageViewController.h */,
+				98AB651320DA2A0D0025D807 /* RCMCDMainPageViewController.m */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		980D8DCE20C66BC30060BEA1 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				980D8DDF20C6947B0060BEA1 /* Cell */,
+				98AB651520DA33A80025D807 /* RCMCDMeViewController.h */,
+				98AB651620DA33A80025D807 /* RCMCDMeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		980D8DD220C674C50060BEA1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9891CE872114001300400F2C /* LaunchImage.png */,
+				980D8DD320C674FF0060BEA1 /* RCMCenterDemo.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		980D8DDF20C6947B0060BEA1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				980D8DE020C694E00060BEA1 /* RCMCDMeDetailsCell.h */,
+				980D8DE120C694E00060BEA1 /* RCMCDMeDetailsCell.m */,
+				980D8DE320C6967E0060BEA1 /* RCMCDMeCell.h */,
+				980D8DE420C6967E0060BEA1 /* RCMCDMeCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		981FFD9920C6D11200E17AE3 /* MCenter */ = {
+			isa = PBXGroup;
+			children = (
+				98EB69B220C825CF00EF6EF9 /* RCMCDChatViewController.h */,
+				98EB69B320C825CF00EF6EF9 /* RCMCDChatViewController.m */,
+				989A878320F88DFD00264B9B /* RCMCDemoViewController.h */,
+				989A878420F88DFD00264B9B /* RCMCDemoViewController.m */,
+			);
+			path = MCenter;
+			sourceTree = "<group>";
+		};
+		983AB24E211BD31100413A56 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				983AB257211BD32900413A56 /* default_image_rectangular.png */,
+				983AB252211BD32800413A56 /* default_image_square.png */,
+				983AB256211BD32900413A56 /* default_image.png */,
+				983AB253211BD32900413A56 /* en.lproj */,
+				983AB24F211BD32800413A56 /* zh-Hans.lproj */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		983AB24F211BD32800413A56 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				983AB250211BD32800413A56 /* RCML.strings */,
+			);
+			name = "zh-Hans.lproj";
+			path = "RCMCenterDemo/RCMCenter/zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		983AB253211BD32900413A56 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				983AB254211BD32900413A56 /* RCML.strings */,
+			);
+			name = en.lproj;
+			path = RCMCenterDemo/RCMCenter/en.lproj;
+			sourceTree = "<group>";
+		};
+		986A62B720DB91B30022AB48 /* MessageManager */ = {
+			isa = PBXGroup;
+			children = (
+				986A62B820DB91E60022AB48 /* RCMCDMessageManager.h */,
+				986A62B920DB91E60022AB48 /* RCMCDMessageManager.m */,
+			);
+			path = MessageManager;
+			sourceTree = "<group>";
+		};
+		FEF5048F11AEA22D11D214DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983AC42F211C423800413A56 /* RongMCenter.framework */,
+				983AB24E211BD31100413A56 /* Resource */,
+				AE48281E20A17887448B4C73 /* libPods-RCMCenterDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		980D8D9020C662260060BEA1 /* RCMCenterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980D8DB220C662260060BEA1 /* Build configuration list for PBXNativeTarget "RCMCenterDemo" */;
+			buildPhases = (
+				8DD128FAF5B4D95246811B67 /* [CP] Check Pods Manifest.lock */,
+				980D8D8D20C662260060BEA1 /* Sources */,
+				980D8D8E20C662260060BEA1 /* Frameworks */,
+				980D8D8F20C662260060BEA1 /* Resources */,
+				724131DFF609991EBFA67A8D /* [CP] Embed Pods Frameworks */,
+				3E58C7D03EE928ECC2D299FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCMCenterDemo;
+			productName = RCMCenterDemo;
+			productReference = 983AC429211C3EA400413A56 /* RCMCenterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		980D8DA820C662260060BEA1 /* RCMCenterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980D8DB520C662260060BEA1 /* Build configuration list for PBXNativeTarget "RCMCenterDemoUITests" */;
+			buildPhases = (
+				980D8DA520C662260060BEA1 /* Sources */,
+				980D8DA620C662260060BEA1 /* Frameworks */,
+				980D8DA720C662260060BEA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980D8DAB20C662260060BEA1 /* PBXTargetDependency */,
+			);
+			name = RCMCenterDemoUITests;
+			productName = RCMCenterDemoUITests;
+			productReference = 983AC42A211C3EA400413A56 /* RCMCenterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		980D8D8920C662260060BEA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jue;
+				TargetAttributes = {
+					980D8D9020C662260060BEA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					980D8DA820C662260060BEA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 980D8D9020C662260060BEA1;
+					};
+				};
+			};
+			buildConfigurationList = 980D8D8C20C662260060BEA1 /* Build configuration list for PBXProject "RCMCenterDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 980D8D8820C662260060BEA1;
+			productRefGroup = 980D8D8820C662260060BEA1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				980D8D9020C662260060BEA1 /* RCMCenterDemo */,
+				980D8DA820C662260060BEA1 /* RCMCenterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		980D8D8F20C662260060BEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983AB25A211BD32900413A56 /* RCML.strings in Resources */,
+				980D8DD420C674FF0060BEA1 /* RCMCenterDemo.bundle in Resources */,
+				980D8DA120C662260060BEA1 /* LaunchScreen.storyboard in Resources */,
+				983AB259211BD32900413A56 /* default_image_square.png in Resources */,
+				983AB25C211BD32900413A56 /* default_image_rectangular.png in Resources */,
+				980D8D9E20C662260060BEA1 /* Assets.xcassets in Resources */,
+				983AB25B211BD32900413A56 /* default_image.png in Resources */,
+				9891CE882114001300400F2C /* LaunchImage.png in Resources */,
+				987B0549211AF217003C4A25 /* users_config.json in Resources */,
+				983AB258211BD32900413A56 /* RCML.strings in Resources */,
+				980D8D9C20C662260060BEA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980D8DA720C662260060BEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E58C7D03EE928ECC2D299FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RCMCenterDemo/Pods-RCMCenterDemo-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCColor.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCColor.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCMCenterDemo/Pods-RCMCenterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		724131DFF609991EBFA67A8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCMCenterDemo/Pods-RCMCenterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD128FAF5B4D95246811B67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCMCenterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		980D8D8D20C662260060BEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980D8DE220C694E00060BEA1 /* RCMCDMeDetailsCell.m in Sources */,
+				986A62BA20DB91E60022AB48 /* RCMCDMessageManager.m in Sources */,
+				98AB651720DA33A80025D807 /* RCMCDMeViewController.m in Sources */,
+				980D8D9920C662260060BEA1 /* ViewController.m in Sources */,
+				98AB651420DA2A0D0025D807 /* RCMCDMainPageViewController.m in Sources */,
+				980D8DCD20C667550060BEA1 /* RCMCDMainTabBarViewController.m in Sources */,
+				980D8DA420C662260060BEA1 /* main.m in Sources */,
+				98EB69B420C825CF00EF6EF9 /* RCMCDChatViewController.m in Sources */,
+				980D8D9620C662260060BEA1 /* AppDelegate.m in Sources */,
+				989A878520F88DFD00264B9B /* RCMCDemoViewController.m in Sources */,
+				980D8DE520C6967E0060BEA1 /* RCMCDMeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980D8DA520C662260060BEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980D8DAE20C662260060BEA1 /* RCMCenterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		980D8DAB20C662260060BEA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 980D8D9020C662260060BEA1 /* RCMCenterDemo */;
+			targetProxy = 980D8DAA20C662260060BEA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		980D8D9A20C662260060BEA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980D8D9B20C662260060BEA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		980D8D9F20C662260060BEA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980D8DA020C662260060BEA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		983AB250211BD32800413A56 /* RCML.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983AB251211BD32800413A56 /* zh-Hans */,
+			);
+			name = RCML.strings;
+			sourceTree = "<group>";
+		};
+		983AB254211BD32900413A56 /* RCML.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983AB255211BD32900413A56 /* en */,
+			);
+			name = RCML.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		980D8DB020C662260060BEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		980D8DB120C662260060BEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		980D8DB320C662260060BEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA80C82CDE3B717BF2F2C15 /* Pods-RCMCenterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RCMCenterDemo/RCMCenterDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCMCenterDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RCMCenter/DerivedData/RCMCenter/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/DerivedData/RCMCenterDemo/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/RCMCenterDemo/RCMCenter",
+				);
+				INFOPLIST_FILE = RCMCenterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.MCenter.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		980D8DB420C662260060BEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F026A67E1A7755C8D56A2116 /* Pods-RCMCenterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RCMCenterDemo/RCMCenterDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCMCenterDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RCMCenter/DerivedData/RCMCenter/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/DerivedData/RCMCenterDemo/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/RCMCenterDemo/RCMCenter",
+				);
+				INFOPLIST_FILE = RCMCenterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.MCenter.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		980D8DB620C662260060BEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				INFOPLIST_FILE = RCMCenterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.RCMCenterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RCMCenterDemo;
+			};
+			name = Debug;
+		};
+		980D8DB720C662260060BEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				INFOPLIST_FILE = RCMCenterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.RCMCenterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RCMCenterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		980D8D8C20C662260060BEA1 /* Build configuration list for PBXProject "RCMCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980D8DB020C662260060BEA1 /* Debug */,
+				980D8DB120C662260060BEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980D8DB220C662260060BEA1 /* Build configuration list for PBXNativeTarget "RCMCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980D8DB320C662260060BEA1 /* Debug */,
+				980D8DB420C662260060BEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980D8DB520C662260060BEA1 /* Build configuration list for PBXNativeTarget "RCMCenterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980D8DB620C662260060BEA1 /* Debug */,
+				980D8DB720C662260060BEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 980D8D8920C662260060BEA1 /* Project object */;
+}

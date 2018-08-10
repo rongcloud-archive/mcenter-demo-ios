@@ -1,0 +1,25 @@
+  1 RCMCenterDemoWithFramework/DerivedData
+  2 # 忽略Xcode本地用户配置信息
+  3 *.xcuserstate
+  4 *.xcuserdatad/
+  5 xcuserdata/
+  6 xcshareddata/
+  7 ## Build generated
+  8 build/
+  9 DerivedData/
+ 10
+ 11 ## Various settings
+ 12 *.pbxuser
+ 13 !default.pbxuser
+ 14 *.mode1v3
+ 15 !default.mode1v3
+ 16 *.mode2v3
+ 17 !default.mode2v3
+ 18 *.perspectivev3
+ 19 !default.perspectivev3
+ 20 xcuserdata/
+ 21
+ 22 ## Other
+ 23 *.moved-aside
+ 24 *.xccheckout
+".gitignore" 45L, 559C                                        1,1           Top
